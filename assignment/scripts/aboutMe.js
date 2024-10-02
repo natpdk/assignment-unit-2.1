@@ -137,8 +137,6 @@ console.log( luckyResult );
 
 
 
-
-
 // DO NOT MODIFY
 // Used for automated testing
 try {
