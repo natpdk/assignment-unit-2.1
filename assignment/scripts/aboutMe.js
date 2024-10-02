@@ -104,7 +104,29 @@ else if( pets < friendsPets){
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
-
+let luckyResult 
+switch(luckyResult) {
+  case 1:
+    if( luckyNumber = 1){
+      luckyResult = "First is the Worst"
+    }
+    break;
+  case 2:
+    if( luckyNumber = 2){
+      luckyResult = "Second is the best"
+    }
+    break;
+  case 2:
+    if( luckyNumber = 3){
+      luckyResult = "Third is the one with the polk dot dress"
+    }
+    break;
+  default:
+    if( luckyNumber >= 4 ){
+      luckyResult = "Luck is what happens when preparation meets opportunity"
+    }
+}
+console.log( luckyResult );
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
